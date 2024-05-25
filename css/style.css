@@ -1,0 +1,425 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(../assets/font/Figtree/static/Figtree-Regular.ttf);
+}
+:root {
+  --bgcolor: #160c1c;
+  --bannercolor: #392447;
+  --brandcolor: #9455be;
+  --colors: #774b3f;
+}
+.parents {
+  width: 100%;
+  margin-top: -90px;
+  height: 450px;
+  color: white;
+  background-size: cover !important;
+}
+.parents {
+  background: linear-gradient(0deg, #081828e3, #081828e3),
+    url(/assets/image/bannerimaage2.jpg);
+}
+body {
+  font-family: "Figtree";
+  color: white;
+  background-color: var(--bgcolor);
+}
+.About {
+  background: linear-gradient(0deg, #081828e3, #081828e3),
+    url(/assets/image/bannerimaage2.jpg);
+  background-size: cover;
+}
+.consectetur {
+  height: 435px;
+  color: white;
+  opacity: 0.4;
+}
+.fs-0 {
+  font-size: 15px;
+  text-align: center;
+}
+.mt-6 {
+  margin-top: 60px;
+}
+.mb-6 {
+  margin-bottom: 60px;
+}
+.mt-10 {
+  margin-top: 100px;
+}
+.fs-5 {
+  font-size: 15px !important;
+}
+.pt-10 {
+  padding-top: 100px;
+}
+.fs-7 {
+  font-size: 48px;
+}
+.h-45 {
+  height: 450px;
+}
+.Services {
+  background-image: linear-gradient(to right, #100715, #4a1170);
+}
+.Servicess {
+  background-image: linear-gradient(to right bottom, #251b2b, #412c30);
+}
+.Potential {
+  background-image: linear-gradient(to right bottom, #9455be, #774b3f, #060302);
+  border-radius: 30px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  background-color: #100715;
+}
+.offcanva {
+  background-color: #9455be;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
+.socialicon {
+  color: var(--brandcolor);
+}
+.navitem {
+  font-size: 16px;
+  font-weight: 600;
+}
+.Transforming {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  line-height: 95px;
+}
+.creativity {
+  font-size: 18px;
+}
+.started {
+  background-color: #9455be;
+}
+.gmail {
+  transform: rotate(90deg);
+  right: -40px;
+}
+
+.icon {
+  font-weight: 600;
+  font-size: 20px;
+}
+.Services {
+  background-color: var(--bgcolor);
+}
+.socialicons {
+  border-radius: 50%;
+  background-color: var(--brandcolor);
+  width: 80px;
+  text-align: center;
+  font-size: 35px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.abc {
+  margin-top: -10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Through {
+  font-size: 48px;
+}
+.number,
+.numbers,
+.numberss {
+  font-size: 80px;
+  font-weight: bold;
+}
+.Prents {
+  line-height: 55px;
+  text-transform: uppercase;
+}
+.Projects {
+  font-size: 15px;
+  color: #d0b7e0;
+}
+li {
+  list-style: none !important;
+}
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+@keyframes counter1 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 125;
+  }
+}
+.number,
+.numbers,
+.numberss {
+  counter-reset: num var(--num);
+}
+.number {
+  --num: 125;
+  animation: counter1 1s;
+}
+@keyframes counter2 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 85;
+  }
+}
+.numbers {
+  --num: 125;
+  animation: counter2 1s;
+}
+@keyframes counter3 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 14;
+  }
+}
+.numberss {
+  --num: 14;
+  animation: counter3 1s;
+}
+@media (max-width: 1200px) {
+  .Transforming {
+    line-height: 75px;
+  }
+}
+.number::before {
+  content: counter(num) "+";
+}
+.numbers::before {
+  content: ">" counter(num);
+}
+.numberss::before {
+  content: counter(num) "k";
+}
+.rounded-5 {
+  border-radius: 20px;
+  background-color: black;
+}
+.fa-bookmark,
+.digital {
+  font-size: 17px;
+}
+.fa-bookmark,
+.digital:hover {
+  color: #d0b7e0;
+}
+.MOBILE {
+  font-size: 15px;
+}
+.bg-purpie {
+  background-color: #9455be !important;
+}
+.bgimage:hover {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+.bgimg {
+  padding: 25px 0;
+}
+.bgimg:hover {
+  background-color: rgb(50, 17, 50);
+}
+.LEARN {
+  text-align: end;
+  padding-right: 10px;
+}
+body {
+  position: relative;
+  height: 100%;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+}
+.swiperimage1 {
+  border-radius: 50%;
+  width: 50px !important;
+  height: 50px !important;
+}
+.developer {
+  font-size: 15px;
+}
+.rounded-6 {
+  border-radius: 20px;
+}
+.bg-purpies {
+  background-color: #e7d2f4 !important;
+}
+.text-purpie {
+  color: #957ba7;
+}
+.decrement {
+  font-size: 18px !important;
+}
+ a:hover {
+  color: var(--brandcolor) !important;
+}
+.underline {
+  border-top: 1px solid white;
+}
+.underline-left {
+  border-right: 1px solid white;
+}
+.bg-white {
+  --bs-bg-opacity: 1;
+  background-color: #f1f5f9 !important;
+}
+.cards {
+  border-radius: 8px;
+  padding: 10px;
+  min-height: 310px;
+  background-color: white !important;
+  border: none;
+}
+a {
+  color: #754ffe;
+  text-decoration: none;
+}
+.an {
+  color: #6e6c6c;
+  font-size: 15px;
+}
+.underline {
+  border-bottom: 1px solid #d9dcde;
+  width: 9%0;
+}
+.name,
+.names {
+  font-weight: 600;
+}
+.boxs .fa {
+  border: 1px solid;
+  border-radius: 5px;
+  color: #64748b;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid #555;
+}
+input.py-1.ps-3 {
+  border-radius: 5px;
+  border-color: #cbd5e1;
+}
+.agree {
+  color: #6e6c6c;
+  font-size: 14px;
+  font-family: "inter";
+}
+input.mt-2,
+input.py-1.ps-3:active {
+  border-color: #c0b3f1;
+}
+.box {
+  border: 1px solid #dcd6d6;
+}
+.but {
+  background-color: #754ffe;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 5px;
+  width: 100% !important;
+}
+.w-25 {
+  height: 70px !important;
+  width: 100px !important;
+}
+
+@media (max-width: 992px) {
+  .Transforming {
+    line-height: 50px;
+    font-size: 44px;
+    width: 80%;
+  }
+  .Through {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 768px) {
+  .number,
+  .numbers,
+  .numberss {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  .Lorem {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    padding-left: 5px;
+  }
+}
+@media (min-width: 992px) {
+  .bannerimg:hover {
+    margin-top: -10px;
+    transition: 1s;
+  }
+  .socialicons {
+    margin-top: -10px;
+    transition: 1s;
+  }
+  .BRANDING {
+    padding-right: 140px;
+  }
+  .DESIGN {
+    padding-right: 80px;
+  }
+  .APPS {
+    padding-right: 190px;
+  }
+
+  body {
+    font-size: 19px;
+  }
+  .ullamcorper {
+    margin-top: 80px;
+  }
+  .Lorem {
+    width: 38%;
+  }
+  .tellus {
+    font-size: 55px !important;
+  }
+}
