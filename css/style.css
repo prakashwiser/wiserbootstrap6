@@ -385,6 +385,9 @@ input.py-1.ps-3:active {
   .Lorem {
     width: 100%;
   }
+  .parents{
+    background-position: center;
+  }
 }
 @media (max-width: 576px) {
   body {
