@@ -235,9 +235,6 @@ li {
 .bgimg {
   padding: 25px 0;
 }
-.bgimg:hover {
-  background-color: rgb(50, 17, 50);
-}
 .LEARN {
   text-align: end;
   padding-right: 10px;
@@ -289,7 +286,7 @@ body {
 .decrement {
   font-size: 18px !important;
 }
- a:hover {
+a:hover {
   color: var(--brandcolor) !important;
 }
 .underline {
@@ -347,9 +344,6 @@ input.mt-2,
 input.py-1.ps-3:active {
   border-color: #c0b3f1;
 }
-.box {
-  border: 1px solid #dcd6d6;
-}
 .but {
   background-color: #754ffe;
   color: white;
@@ -363,7 +357,67 @@ input.py-1.ps-3:active {
   height: 70px !important;
   width: 100px !important;
 }
+.progress .BRANDING{
+  width: 75%;
+  animation: Mymove 5s infinite; 
+}
+.progress .digital {
+  width: 90%;
+  animation: mymove 5s infinite;
+}
+.progress .DESIGN{
+  width: 85%;
+  animation: Thismove 5s infinite;
+}
+.progress .APPS{
+  width: 85%;
+  animation: appmove 5s infinite;
+}
+.progress .MOBILE{
+  width: 65%;
+  animation: mobilemove 5s infinite;
+}
 
+@keyframes mobilemove {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@keyframes appmove {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes Thismove {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes Mymove {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes mymove {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
 @media (max-width: 992px) {
   .Transforming {
     line-height: 50px;
@@ -385,7 +439,7 @@ input.py-1.ps-3:active {
   .Lorem {
     width: 100%;
   }
-  .parents{
+  .parents {
     background-position: center;
   }
 }
@@ -411,6 +465,40 @@ input.py-1.ps-3:active {
   }
   .APPS {
     padding-right: 190px;
+  }
+  .bgimg:hover {
+    background-color: rgb(50, 17, 50);
+  }
+  .bgimgTop {
+    position: relative;
+  }
+  .bgimg:hover .bgimgTop:after {
+    content: "";
+    position: absolute;
+    top: -55px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+  }
+  .bgimg:hover .bgimgTop.headphone:after {
+    background: url("../assets/image/hoverimage2.jpg") 0 0 no-repeat;
+    background-size: contain;
+  }
+  .bgimg:hover .bgimgTop.shoe:after {
+    background: url("../assets/image/hoverimg1.jpg") 0 0 no-repeat;
+    background-size: contain;
+  }
+  .bgimg:hover .bgimgTop.iphone:after {
+    background: url("../assets/image/hoverimge3.jpg") 0 0 no-repeat;
+    background-size: contain;
+  }
+  .bgimg:hover .bgimgTop.circle:after {
+    background: url("../assets/image/hoverimg4.jpg") 0 0 no-repeat;
+    background-size: contain;
+  }
+  .bgimg:hover .bgimgTop.camera:after {
+    background: url("../assets/image/hoverimg5.jpg") 0 0 no-repeat;
+    background-size: contain;
   }
 
   body {

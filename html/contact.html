@@ -92,44 +92,24 @@
     </div>
     <div class="d-none d-lg-block position-absolute position-fixed top-50 emailData gmail text-dark"><i
             class="fa fa-telegram pe-1" aria-hidden="true"></i> wiserPrakash.io</div>
-    <div class="d-flex justify-content-center align-items-center vh-100 bg-white">
+    <div class="d-flex justify-content-center align-items-center vh-100 bg-white bgfrom">
         <div class="cards pe-5 ps-5">
             <img class="w-25 pe-5 my-4 " src="../assets/image/bannericon.svg" alt="">
             <div class="fs-2 fw-bold">Sign up</div>
             <div class="an mt-2">Already have an account?<a class="ms-2" href="">Sign in</a></div>
             <form action="../html/client.html">
-                <div class="d-flex flex-column d-none d-lg-block">
-                    <div class="names mt-4 my-2">Username</div>
-                    <input class="user ps-3 py-1 mt-2" type="text" name="username" size="50" placeholder="Username...">
-                    <div class="name my-2 mt-3">Email</div>
-                    <input class="py-1 ps-3" type="email " pattern=".+@example\.com" size="50"
-                        placeholder="Email address here" />
-                    <div class="name mt-3">Password</div>
-                    <input class="mt-2 py-1 ps-3" type="password" name="password" minlength="7"
-                        placeholder="***********" />
+                <div class="d-flex flex-column">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwdn" placeholder="Password" name="email">
+                    <label for="pwd">Phone:</label>
+                    <input type="tel" class="form-control" id="pwd"placeholder="Mobile number">
                     <div class="d-flex mt-3">
                         <div>
                             <input class="box" type="checkbox" name="horns">
                         </div>
                         <div class="agree ps-1"> I agree to the <a href="">Terms of Service</a><span> and <a
-                                    href="">Privacy
-                                    Policy</a></span></div>
-                    </div>
-                </div>
-                <div class="d-flex flex-column d-block d-lg-none">
-                    <div class="names mt-4 my-2">Username</div>
-                    <input class="user ps-3 py-1 mt-2 form-control" type="text" name="username" size="30" placeholder="Username...">
-                    <div class="name my-2 mt-3">Email</div>
-                    <input class="py-1 ps-3" type="email " pattern=".+@example\.com" size="30"
-                        placeholder="Email address here" />
-                    <div class="name mt-3">Password</div>
-                    <input class="mt-2 py-1 ps-3" type="password" name="password" minlength="7"
-                        placeholder="***********" />
-                    <div class="d-flex mt-3">
-                        <div>
-                            <input class="box " type="checkbox" name="horns">
-                        </div>
-                        <div class="agree ps-1 "> I agree to the <a href="">Terms of Service</a><span> and <a
                                     href="">Privacy
                                     Policy</a></span></div>
                     </div>
